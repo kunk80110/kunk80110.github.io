@@ -1,0 +1,77 @@
+.contacts{
+    width: 80%;
+    height: auto;
+    margin: 60px auto 100px auto;
+    text-align: center;
+    &_h1{
+        font-family: $Questria;
+        text-transform: uppercase;
+    }
+
+    .contsoc{
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        grid-column-gap: 50px;
+        grid-row-gap: 40px;
+        justify-content: space-around;
+        margin-top: 60px;
+
+        .card{
+            width: 50%;
+            height: 350px;
+            background-color: #bfbfbf;
+            padding-top: 20px;
+            border-radius: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            &_h2{
+                font-size: 25px;
+                font-family: $Questria;
+                text-transform: uppercase;
+                font-weight: 600;
+            }
+
+            &_ttres{
+                text-transform: none;
+            }
+
+            &_img{
+                width: 50%;
+                height: 50%;
+                margin: 100px auto 0px auto;
+                display: block;
+            }
+
+            &_tg{
+                background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Telegram_font_awesome.svg/1024px-Telegram_font_awesome.svg.png') no-repeat;
+                background-size: 100%;
+            }
+
+            &_inst{
+                background: url('https://cdn-icons-png.flaticon.com/512/1400/1400829.png') no-repeat;
+                background-size: 100%;
+            }
+
+            &_github{
+                background: url('https://cdn-icons-png.flaticon.com/512/25/25231.png?w=360') no-repeat;
+                background-size: 100%;
+            }
+
+            &_steam{
+                background: url('https://toppng.com/public/uploads/thumbnail/steam-logo-png-steam-logo-black-11563631869yky0wulhva.png') no-repeat;
+                background-size: 100%;
+            }
+
+            &_fb{
+                background: url('https://www.artwebnews.com/wp-content/uploads/2022/03/ca3bf05cfab74677e5b73b130bd30991-1.png') no-repeat;
+                background-size: 100%;
+            }
+
+            &_linkedin{
+                background: url('https://cdn-icons-png.flaticon.com/512/49/49656.png') no-repeat;
+                background-size: 100%;
+            }
+
+        }
+    }
+}    

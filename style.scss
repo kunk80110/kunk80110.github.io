@@ -1,0 +1,30 @@
+.gray{
+    color: #828282;
+    transition: color 0.3s linear;
+    &:hover{
+        color: #0f0f0f;
+    }
+}
+
+.hor-line{
+    height: 1px;
+    width: 80%;
+    background: #000;
+    margin: auto;
+    
+}
+
+.hor-line2{
+    height: 1px;
+    width: 80%;
+    background: #000;
+    margin: 0 auto 0 auto;
+}
+
+@import 'fonts';
+@import 'header';
+@import 'aboutme';
+@import 'contacts';
+@import 'skills';
+@import 'portfolio';
+@import 'contacts';
