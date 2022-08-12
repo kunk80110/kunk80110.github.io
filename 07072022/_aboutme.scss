@@ -1,0 +1,80 @@
+.info{
+    width: 80%;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    .myname, .myjob, .langs{
+        flex-basis: 33%;
+        color: #070707;
+        font-family: $Questria;
+    }
+    .myname{
+        font-size: 48px;
+        line-height: 59px;
+        font-weight: bold;
+        text-align: left;
+    }
+    .myjob{
+        margin-top: 60px;
+        text-align: center;
+        font-size: 18px;
+    }
+    .langs{
+        margin-top: 10px;
+        text-align: right;
+        .lang{
+            font-weight: 600;
+            position: relative;
+            margin-top: 15px;
+        }
+    }
+}
+
+
+.myphoto{
+    width: 80%;
+    height: 45%;
+    background-image: url('../imgs/myphoto.jpg');
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 150px;
+    background-size: 100%;
+    background-position: 50% 10%;
+    border: 4px solid black;
+    border-radius: 4px;
+    position: relative;
+    &__glass{
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(30deg, #000, rgb(155, 155, 155));
+        opacity: 0.6;
+        transition: opacity 0.4s linear;
+        &:hover{
+            opacity: 0;
+        }
+    }
+}
+
+
+.about-me{
+    width: 80%;
+    height: 45%;
+    background-color: #f6f6f6;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 70px;
+    text-align: center;
+    font-family: $Questria;
+    &__h2{
+        margin-bottom: 30px;
+        font-size: 34px;
+        line-height: 22px;
+    }
+    &__p{
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
